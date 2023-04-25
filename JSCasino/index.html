@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>JS Casino
+    </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Random Number Game</h1>
+    <div>
+      <form class="bold" id="inputrange">
+        Gernerate a number between 0 and <input type="number" min="0" >
+      </form>
+    </div>
+      <div>
+        <form class="NumberRange" id="iguess">
+          Guess the number:
+       <input type="number" min="0" />
+       <button>play</button>
+        </form>
+      </div>
+      <div class="hidden" id="Input_result">
+      </div>
+      <div class="hidden" id="win_result">
+      </div>
+      <script src = "app.js"></script>
+  </body>
+</html>
